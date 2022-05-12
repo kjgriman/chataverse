@@ -7,11 +7,10 @@ export const Chataverse = () => {
     addResponseMessage('Welcome to this **awesome** chat!');
   }, []);
 
-  const handleNewUserMessage = (newMessage:any) => {
+  const handleNewUserMessage = (newMessage: any) => {
     console.log(`New message incoming! ${newMessage}`);
     // Now send the message throught the backend API
   };
-
 
   return (
     <div className="App">
