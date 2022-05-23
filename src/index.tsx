@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
 import { Widget, addResponseMessage } from 'react-chat-widget';
+// import 'react-chat-widget/lib/styles.css';
+import 'react-chat-widget/lib/styles.css';
 
 // Delete me
 export const Chataverse = () => {
